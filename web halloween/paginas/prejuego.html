@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prejuego</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="icon" href="../img/logo.png" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: halloween;
+            src: url(../font/Scary_Halloween_Font.ttf);
+        }
+
+        body {
+            background-image: url(../img/fondo.png);
+            background-size: cover;
+            z-index: 100;
+        }
+
+        .contenedor {
+            z-index: -1;
+            width: 70%;
+            height: 70vh;
+            background-color: rgba(240, 255, 255, 0.415);
+            border-radius: 10px;
+            margin-top: 11%;
+            backdrop-filter: blur(7px);
+            transition: all 1s;
+        }
+        .contenedor:hover{
+            transform: scale(1.2);
+        }
+
+        .titulo {
+            font-family: halloween;
+            font-size: 70px;
+            
+        }
+
+        .leer {
+            font-family: 'Arial Narrow Bold', sans-serif;
+        }
+
+        .desc {
+            width: 70%;
+            height: 25vh;
+            background-color: rgba(53, 74, 74, 0.75);
+            border-radius: 10px;
+            backdrop-filter: blur(0px);
+        }
+
+        li {
+            color: aliceblue;
+            font-family: sans-serif;
+        }
+
+        button {
+            width: 30%;
+            font-family: halloween;
+        }
+
+        @media screen and (max-width: 1200px) {
+            li {
+                font-size: 15px;
+            }
+            .titulo{
+                font-size: 30px;
+            }
+            .leer{
+                font-size: 30px;
+            }
+        }
+
+        @media screen and (max-width: 1000px) {
+            li {
+                font-size: 12px;
+            }
+            .titulo{
+                font-size: 30px;
+            }
+            .leer{
+                font-size: 30px;
+            }
+        }
+        @media screen and (max-width: 750px) {
+            li {
+                font-size: 10px;
+            }
+            .titulo{
+                font-size: 30px;
+            }
+            .leer{
+                font-size: 25px;
+            }
+        }
+        @media screen and (max-width: 525px) {
+            li {
+                font-size: 8px;
+            }
+            .titulo{
+                font-size: 25px;
+            }
+            .leer{
+                font-size: 27px;
+            }
+            button{
+                width: 35%;
+            }
+        }
+        @media screen and (max-width: 440px) {
+            button{
+                width: 40%;
+                margin-top: -10%;
+            }
+        }
+        @media screen and (max-width: 420px) {
+            li {
+                font-size: 7px;
+            }
+            .titulo{
+                font-size: 25px;
+            }
+            .leer{
+                font-size: 12px;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            li {
+                font-size: 7px;
+            }
+            .titulo{
+                font-size: 35px;
+            }
+            .leer{
+                font-size: 20px;
+            }
+            button{
+                width: 45%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container mb-5 contenedor  text-center">
+            <br>
+            <div class="container titulo">
+                <h1 class="container titulo text-white">PUMPKIN KARTING</h1>
+            </div>
+            <div class="container mt-5">
+                <div class="container ">
+                    <h1 class="container  text-white leer">Lee las instrucciones antes de "Jugar"</h1>
+                </div>
+            </div>
+            <div class="container desc text-center d-flex align-items-center justify-content-center mx-auto mt-5">
+                <div class="container mt-5 ">
+                    <ul>
+                        <li>GANA EL JUGADOR QUE LLEGA ANTES A LA META.</li><br>
+                        <li>COCHE VERDE: PULSA "L" PARA AVANZAR.</li><br>
+                        <li>COCHE NARANJA: PULSA "A" PARA AVANZAR.</li><br>
+                        <li>PROCURA SER MAS RAPIDO QUE TU CONTRINCANTE.</li><br>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container mt-5">
+                <div class="container">
+                    <a href="newjuego.html"><button type="button" class="btn btn-lg btn-danger">JUGAR</button></a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
